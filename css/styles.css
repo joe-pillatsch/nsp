@@ -94,3 +94,15 @@ html, body {
       padding: 40px; /* Increase padding if necessary */
     }
   }
+
+  #slider-gallery {
+    background-color: black;
+    color: white; /* Ensures the text appears in white */
+  }
+
+  .carousel-item img {
+    max-height: 80vh; /* Adjusts the image's max height to 80% of the viewport height */
+    object-fit: contain; /* Ensures the image scales without being cut off */
+    width: auto; /* Keeps the original aspect ratio */
+    margin: 0 auto; /* Centers the image */
+  }
