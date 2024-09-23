@@ -106,3 +106,24 @@ html, body {
     width: auto; /* Keeps the original aspect ratio */
     margin: 0 auto; /* Centers the image */
   }
+
+  /* Adjust the position of the carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%; /* Centers the button vertically */
+    transform: translateY(-50%); /* Keeps it centered */
+    width: 5%; /* Adjust the width of the button container */
+    height: 100%; /* Make the button container span the full height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; /* Ensure the buttons remain clickable */
+}
+
+.carousel-control-prev {
+    left: -3%; /* Move the previous button slightly to the left */
+}
+
+.carousel-control-next {
+    right: -3%; /* Move the next button slightly to the right */
+}
