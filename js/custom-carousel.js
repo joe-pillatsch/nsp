@@ -16,14 +16,35 @@ document.addEventListener("DOMContentLoaded", function() {
             id: 'carouselCommercial',
             captionId: 'commercial-caption-text',
             captions: [
-                "Office, Marathon Village, Nashville TN",
-                "Office, Marathon Village, Nashville TN",
-                "Office, Marathon Village, Nashville TN",
-                "Office, Marathon Village, Nashville TN",
-                "Homegrown Taproom, Donelson TN",
-                "Homegrown Taproom, Donelson TN"
+                "Marathon Village, Nashville, TN",
+                "Marathon Village, Nashville, TN",
+                "Marathon Village, Nashville, TN",
+                "Marathon Village, Nashville, TN",
+                "Homegrown Taproom, Donelson, TN",
+                "Homegrown Taproom, Donelson, TN"
+            ]
+        },
+        {
+            id: 'carouselResidential',
+            captionId: 'residential-caption-text',
+            captions: [
+                "Edgehill, Nashville, TN",
+                "8th Ave, Nashville, TN",
+                "8th Ave, Nashville, TN",
+                "Belmont-Hillsboro, Nashville TN",
+                "Belmont-Hillsboro, Nashville, TN"
+            ]
+        },
+        {
+            id: 'carouselWorship',
+            captionId: 'worship-caption-text',
+            captions: [
+                "St. Thomas, Naperville, IL",
+                "St. Thomas, Naperville, IL",
+                "Donelson Presbyterian, Donelson, TN"
             ]
         }
+
         // Add more carousels here as needed
     ];
 

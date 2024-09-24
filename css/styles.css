@@ -127,3 +127,59 @@ html, body {
 .carousel-control-next {
     right: -3%; /* Move the next button slightly to the right */
 }
+
+#footer-section {
+  background-color: black;
+  color: white; /* Ensures the text appears in white */
+}
+
+.footer-icons i {
+  color: #fff; /* Set the icon color to white */
+  font-size: 96px; /* Increase the icon size, adjust as needed */
+}
+
+.footer-icons a:hover i {
+  color: #ccc; /* Change the color to a light gray on hover */
+}
+
+/* Hide the separate mobile sections on desktop */
+.d-none {
+  display: none !important;
+}
+
+.d-md-block {
+  display: block !important;
+}
+
+.d-md-none {
+  display: none !important;
+}
+
+@media (max-width: 767.98px) {
+  .d-md-none {
+      display: block !important;
+  }
+
+  .d-md-block {
+      display: none !important;
+  }
+
+  .snap-scroll {
+      scroll-snap-align: start;
+      height: 100vh; /* Ensure full page height */
+  }
+}
+
+/* Center images in the gallery section */
+#slider-gallery .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers the content vertically */
+  height: 100vh; /* Ensure it takes the full height of the viewport */
+}
+
+.carousel-inner {
+  display: flex;
+  align-items: center; /* Centers the image within the carousel */
+  height: 100%; /* Make sure the carousel takes the full height */
+}
