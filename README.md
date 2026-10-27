@@ -7,6 +7,9 @@ and the people we worked with.
 
 🔗 **Live:** [nashvillesoundpanels.com](https://nashvillesoundpanels.com)
 
+> **This repository is public.** Private business notes live outside it and don't
+> belong here.
+
 ## About
 
 The page reads top to bottom as a numbered archive:

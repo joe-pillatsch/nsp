@@ -1,1 +1,16 @@
 .DS_Store
+
+# --- Guard: this repo is PUBLIC and serves nashvillesoundpanels.com ------------
+#
+# Private business notes live outside this repo and must never be committed here.
+# A commit is a publish, and git history is permanent. These patterns are a second
+# line of defence in case such a file is copied into this directory by mistake.
+
+FACTS.md
+HISTORY.md
+SOURCES.md
+CLAUDE.md
+notes/
+private/
+*.private.md
+.claude/
